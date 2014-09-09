@@ -62,7 +62,19 @@ echo ($variable . $variable2);
 	$age = "21";
 echo "Ma olen {$age}e aastane"; ?>
 	
-
+<h2>Täisarvud</h2>
+	<?php
+		$variable = 2;
+		$variable2 = 1;
+		echo ($variable * $variable2) * 3;
+	?>
+	<?php echo abs(-10) ?>
+	<?php echo pow(7, 2);?>
+	<?php echo sqrt(625);?>
+	<?php
+    echo rand() . "<br>";
+    echo rand(1, 100);
+    ?>
 </body>
 
 </html>
