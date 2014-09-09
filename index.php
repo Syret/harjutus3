@@ -19,9 +19,8 @@
 
 <h2>Stringid</h2>
 
-<?php echo "Hello world!"; ?>
-<?php echo "<br>"; ?>
-<?php echo 'Hello world!'; ?> 
+<?php echo "Hello world!<br>"; ?>
+<?php echo 'Hello world!<br>'; ?> 
 
 
 <?php $variable = "24"; 
@@ -54,7 +53,11 @@ echo ($variable . $variable2);
 	$fullName = $firstName.$lastName; 
 	echo $fullName;
 	?>
-
+	<br>
+<?php 
+	$test = "Testmime";
+	echo "$test kas interpolatsioon töötab"; 
+	?>
 
 </body>
 
