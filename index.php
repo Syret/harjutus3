@@ -48,9 +48,9 @@ echo ($variable . $variable2);
 ?>
 </ul>
 <?php 
-	$firstName ="Syret ";
+	$firstName ="Syret";
 	$lastName = "Kärt";
-	$fullName = $firstName.$lastName; 
+	$fullName = $firstName . " " . $lastName; 
 	echo $fullName;
 	?>
 	<br>
@@ -60,7 +60,14 @@ echo ($variable . $variable2);
 	?>
 <?php	
 	$age = "21";
-echo "Ma olen {$age}e aastane"; ?>
+echo "Ma olen {$age}e aastane<br>"; ?>
+
+<?php
+ $source = " see on TEKST suurte TÄHTEDEGA";
+ echo $source;
+ $lower = strtolower($source);
+ echo "<p>{$lower}</p>";
+?>
 	
 <h2>Täisarvud</h2>
 	<?php
@@ -73,8 +80,48 @@ echo "Ma olen {$age}e aastane"; ?>
 	<?php echo sqrt(625);?>
 	<?php
     echo rand() . "<br>";
-    echo rand(1, 100);
+    echo rand(1, 100) . "<br>";
     ?>
+    <?php
+  $sample_nr = 30;
+  $sample_nr = $sample_nr + 2;
+  echo $sample_nr . "<br>";
+?>
+<?php
+    $sample_nr2 = 30;
+    $sample_nr2 += 2;
+    echo $sample_nr2 . "<br>";
+?>
+<?php
+    $sample_nr3 = 20;
+    $sample_nr3 -= 2;
+    echo $sample_nr3 . "<br>";
+?>
+<?php
+    $sample_nr4 = 18;
+    $sample_nr4 *= 5;
+    echo $sample_nr4 . "<br>";
+?>
+<?php
+    $sample_nr5 = 20;
+    $sample_nr5 /= 2;
+    echo $sample_nr5 . "<br>";
+?>
+<?php
+    echo 7 . " punane";
+?>
+<br>
+<?php
+    echo 7 + " punane";
+?>
+<br>
+<?php
+    echo 7 + "7";
+?>
+<br>
+<?php
+    echo 7 + "8 punast";
+?>
 </body>
 
 </html>
