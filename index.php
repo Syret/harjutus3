@@ -56,8 +56,12 @@ echo ($variable . $variable2);
 	<br>
 <?php 
 	$test = "Testmime";
-	echo "$test kas interpolatsioon töötab"; 
+	echo "$test kas interpolatsioon töötab<br>"; 
 	?>
+<?php	
+	$age = "21";
+echo "Ma olen {$age}e aastane"; ?>
+	
 
 </body>
 
