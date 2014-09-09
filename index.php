@@ -48,6 +48,13 @@ echo ($variable . $variable2);
 	<li>" .$student5 . "</li>"
 ?>
 </ul>
+<?php 
+	$firstName ="Syret ";
+	$lastName = "Kärt";
+	$fullName = $firstName.$lastName; 
+	echo $fullName;
+	?>
+
 
 </body>
 
