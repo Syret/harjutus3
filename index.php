@@ -17,6 +17,18 @@
     echo $variable;
 ?>
 
+<h2>Stringid</h2>
+
+<?php echo "Hello world!"; ?>
+<?php echo "<br>"; ?>
+<?php echo 'Hello world!'; ?> 
+
+
+<?php $variable = "24"; 
+	$variable2 = "26"; 
+echo ($variable . $variable2);
+	?>
+
 </body>
 
 </html>
